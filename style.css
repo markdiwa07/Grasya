@@ -1,0 +1,157 @@
+*{
+   margin: 0%;
+   padding: 0% ;
+}
+body {
+   margin: 0;
+}
+
+.main {
+   max-width: 160rem;
+   margin: 0 auto;
+}
+
+ul {
+   display: flex;
+   gap: 50px;
+   font-family:sans-serif;
+   text-decoration: none;
+   color: white;
+}
+
+li {
+   display: inline-block; 
+  
+   color: white;
+}
+
+a {
+   font-size: 1.5rem;
+   text-decoration: none;
+   color:whitesmoke !important;
+   text-decoration: none !important;
+
+}
+
+.log{
+   border-radius: 70%;
+   height: 50%;
+}
+
+.button {
+   height: 50px;
+   width: 200px;
+   font-size: 1rem;
+   background-color: #B31312;
+   border: solid 1px white;
+   margin-right: 60px;
+   border-radius: 8px;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+}
+
+.navvv {
+   height: 100px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 2;
+   color: white;
+   position: fixed;
+   border-bottom: 1px rgba(255, 255, 255, 0.555) solid;
+   max-width: 160rem;
+   padding: 0 1rem;
+}
+
+#home {
+   height: 100%;
+   background-color: #191919;
+   padding: 15rem 1rem;
+   margin-bottom: 0px;
+   
+}
+
+#Popular{
+   height: 100%;
+   background-color: #607274;
+   padding: 10rem 0;
+}
+
+.home-cont {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.profile {
+  height: 500px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.601));
+}
+
+.about-picture {
+   height: 400px;
+   box-shadow: #191919 20px 20px 0px;
+}
+
+.about-cont {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 4rem;
+}
+
+#latest {
+   height: 100%;
+   padding: 10rem;
+   background-color: #001524;
+}
+
+#topsales{
+   height: 100%;
+   padding: 10rem;
+   background-color: #191919;
+}
+
+.icon-cont {
+   background-color: white;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+   align-items: center;
+   justify-content: center;
+}
+
+.icon {
+   height: 400px;
+}
+
+.serv-cont {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.par{
+   display: flex;
+   color: wheat;
+   font-size: larger;
+   
+}
+
+.footers {
+   height: 100%;
+   padding: 20rem 0 2px 0;
+   background-color: black;
+   text-align: center;
+   align-items:baseline;
+}
+
+.social-icon {
+   height: 40px;
+}
